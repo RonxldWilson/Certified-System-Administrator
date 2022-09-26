@@ -11,9 +11,139 @@ The applications delivered by ServiceNow are divided into four different workflo
     - Customer Workflows
     - Creator Workflows
 
+HI Service Portal - Hosted instance AKA Now Service Portal
+
+## Interfaces to interact with ServiceNow
+    There are three ways to interact with the Now Platform
+        - Service Portal 
+        - Now Mobile Application
+        - Next Experience Unified Navigation
 
 
-HI Serviec Portal - Hosted instance AKA Now Service Portal
+# Next Experience Unified Navigation
+    Next Experience Unified Navigation is the primary way to interact with the applications
+    and information in a ServiceNow instance. Notable Next Experience features include 
+        - landing pages and navigation menus designed with tabs for 
+            - all applications/modules, 
+            - favorites, 
+            - history, and 
+            - workspaces. 
+            - Contextual App Pill: provides the context for where you are in the system.
+
+#ServieNow Mobile App Interfaces:
+    -ServiceNow Mobile Agent:
+        The ServiceNow Mobile Agent app is targeted to the role of fulfiller. 
+        It supports the needs of those fulfilling requests for products and services across the enterprise. 
+    
+    -Now Mobile:
+        The Now Mobile app is targeted to the needs of an employee. It includes functionality 
+        such as reporting broken items and finding available conference rooms.
+
+
+Top 10 reasons to use ServiceNow Mobile apps
+    1.Persona-focused for intuitive use
+    2.Mobile first and completely native, using the device's built-in features
+    3.Codeless and rapid development of new applets
+    4.Ability to submit, view, and update requests, issues, and tasks
+    5.Global search to find people, service and items, and articles
+    6.Offline access with Mobile Agent to enable fulfillers to complete work while not connected
+    7.Push notifications for access to important information instantly
+    8.Access to Virtual Agent and knowledge articles
+    9.Role-based access to customized information
+    10.Manageable from an MDM (mobile device management) or an MAM (mobile application management)
+
+
+#Service Portal
+The Service Portal provides a user-friendly self-service experience, by providing access to:
+    -Search for articles, catalog items, records
+    -Submit requests
+    -Browse the corporate news feed
+
+URL for Service Portal: https://<instancename>.service-now.com/sp
+
+The URL for service portal may defer based on which instance you are working on, it will be diffrent for 
+developement instance, UAT instance and Production Instance
+
+It is possible to customize the UI and Branding of the page, to give a customized feel for the application
+
+## ServiceNow has Role Based Access
+
+There are four kind of role-based access in the ServieNow portal 
+    -   User
+    -   Group 
+    -   Role
+    -   Base System Role
+
+BEST PRACTICE: Assign the role to a group and sub-groups, and not to the individual user, this can be used to ensure 
+    optimal way of securing the information by practicing role access
+
+########TRIVIA: 
+        1. Users without any assigned role permissions can still log in to ServiceNow and access common actions, 
+        such as viewing a homepage, accessing the Service Catalog, viewing knowledge articles, and taking 
+        surveys. These are often referred to as self-service users.
+
+        2. When roles are assigned that change a user's access permissions for the current session, 
+        the user would need to log out and log back in before the new permissions take effect.
+
+
+## USER AUTHENTICATION
+    User Authentication is the first level of security applied. It validates the identity of the user trying to 
+    access the instance. After taht you can access the roles attached to that user
+
+Diffrent types of User Authentication:
+    -   Local Database
+    -   External Sign on (SSO)
+    -   LDAP
+    -   OAuth2.0
+    -   Digest Token
+    -   MultiFactor
+
+
+## Next Experience Unified Navigation
+    -   Onboarding
+    -   Visualization
+    -   Useful features
+
+## Features of Next Experience Unified Navigation
+    -   Logo
+    -   Navigation menus
+        - All
+            -   Contains all applications and menus
+            -   To search for a specific tables content, type: <table_name>.list
+            -   To search for a specific tables content, type: <table_name>.LIST
+            -   To search for a applications form, type: <table_name>.form
+            -   To search for a applications form and open a new Tab, type: <table_name>.FORM
+
+                        
+        - Favorites
+            -   There is an edit favoirtes option to change the color, icon and other details and order
+
+        - History 
+        - workspaces
+    -   Contextual app Pill
+
+    -   Utilities (include Search options)
+    -   Content Frame: Displays the contents here
+    
+#The Banner frame, All Menus (All, Favorites, and, History), the Filter navigator, and the Content frame.
+
+##### NOTE: 
+            Elevate Role:  Elevate Roles provides an extra layer of precaution for powerful roles. 
+            Administrators often use it when modifying high security settings.
+            
+            Elevate Roles prevents accidents caused by forgetting the power of owning an important role, 
+            such as security_admin. It requires you to manually accept that responsibility before using it. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
