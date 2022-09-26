@@ -1,0 +1,33 @@
+## Course: Certified System Administraotr ###
+################# Day 1 ###################
+## Date: 9/26/2022
+## Day: Monday
+###########################################
+
+The Now Platform from ServiceNow provides an Application Platform-as-a-Service (aPaaS).
+The applications delivered by ServiceNow are divided into four different workflows:
+    - IT Workflows
+    - Employee Workflows
+    - Customer Workflows
+    - Creator Workflows
+
+
+
+HI Serviec Portal - Hosted instance AKA Now Service Portal
+
+
+
+
+
+
+
+
+
+
+
+
+
+################# Day 2 ###################
+## Date: 9/26/2022
+## Day: Monday
+###########################################
